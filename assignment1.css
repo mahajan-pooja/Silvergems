@@ -1,0 +1,210 @@
+.bodyClass {
+	background : #f0f0f5;
+    color : #80007e;
+/*    font-family: Arial, Helvetica, sans-serif;
+   	font-size : 150%;
+   	font-style : italic;
+   	font-weight : normal;*/
+   	/*text-shadow: 1px 1px black;*/
+   	margin: 0px;
+   	
+
+}
+.logoClass {
+/*	font-style: italic;
+*/	color:#80007e;
+	padding: 10px 0px 0px 80px;
+	text-shadow: 2px 2px pink;
+/*	font-family: Georgia, sans-serif;*/
+	font-size : 250%;
+
+}
+.navClass {
+	width:100%;
+	background-color: #80007e;
+	height:50px;
+	text-align: center;
+	padding-top: 20px;
+	box-shadow: 0 4px 20px 0px #99003d;
+	z-index: 1000px;
+	position: relative;
+	
+
+}
+.anchorTop {
+	color: white;
+	/*background-color: #28283e;*/
+	text-decoration: none;
+	font-size: 110%;
+	padding: 5px;
+	text-shadow: 2px 3px black;
+}
+.anchorBottom {
+	color: white;
+	text-decoration: none;
+	font-size: 100%;
+	/*background-color: #800033;*/
+	padding: 5px;
+	text-shadow: 2px 3px black;
+
+}
+a:hover {
+	color: red;
+}
+.spanClass {
+	margin-right: 30px;
+}
+.divMain {
+	background-color: #f9e5ff;
+	padding: 5%;
+	font-style: italic;
+	/*height: 400px; */
+	font-size: 120%;
+	text-align: center;
+	height: auto;
+	background: -webkit-linear-gradient(#f9e5ff, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9e5ff, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9e5ff, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9e5ff, white); /* Standard syntax (must be last) */
+
+}
+dt{
+	font-size: 150%;
+	color: brown;
+}
+dl{
+	margin-top: 0px;
+}
+/*.divMainContact {
+	background-color: #CCCCCC;
+	padding: 20px;
+	font-style: italic;
+	height: 400px; 
+	font-size: 120%;
+	/*background-image: url("http://www.johntitcombe.co.uk/johntitcombe-co-uk/_img/_Shop/bubble-collection/bubble_banner_3.jpg");
+	background-repeat:no-repeat;
+	background-size: 1260px 500px;
+}*/
+.divBottom {
+	background-color: #80007E;
+	width:100%;
+	height:20%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 3px 30px 3px #99003d;
+}
+.indent {
+	text-indent: 50px;
+}
+.logoDiv{
+	width: 100%;
+	height:auto;
+	background-image: url("banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+}
+.logoImg{
+	float: left;
+}
+.spanMarg{
+	margin:80px;
+}
+dt{
+	font-weight: bold;
+}
+.liBold{
+	font-weight: bold;
+	font-size: 150%;
+}
+.table-class {
+	background-color:  #d792cb;
+	margin-left: 80px;
+	box-shadow: 5px 5px 15px #80007e;
+	border-radius: 10px;
+	padding: 5px;
+}
+.product-image {
+	margin-bottom:-10px;
+}
+.pro-info {
+	padding: 10px;
+}
+
+.divMainSupport {
+	width:53%;
+	margin-right: 10px;
+	float: left;
+	background-color: #CCCCCC;
+	padding: 20px;
+	padding-left: 20%;
+	font-style: italic;
+	/*height: 400px; */
+	font-size: 120%;
+	height: auto;
+	background: -webkit-linear-gradient(#CBCBCB, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#CBCBCB, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#CBCBCB, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#CBCBCB, white); /* Standard syntax (must be last) */
+}
+.aside-section {
+	float: left;
+
+}
+.aside-class {
+	height:auto;
+	float:right;
+	width : 89%;
+	padding: 20px;
+	background: -webkit-linear-gradient(#CBCBCB, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#CBCBCB, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#CBCBCB, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#CBCBCB, white); /* Standard syntax (must be last) */
+}
+
+footer{
+	clear: both;
+}
+
+.multi-art {
+	
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding: 20px;
+    text-align: justify;
+    column-gap: 40px;
+    column-rule-style: solid;
+	column-rule-width: 1px;
+}
+.indent-class {
+	text-indent: 50px;
+}
+.video-class {
+	margin: 0 auto;
+}
+.order-table {
+	width: 80%;
+	margin: 20px 0px 20px 100px;
+	border-color: #99003d;
+	border-style: groove;
+	border-collapse: collapse;
+	text-align: center;
+}
+.cust-form {
+	/*border: 1px solid red;
+	border-collapse: collapse;*/
+	width: 50%;
+	margin-left: 300px;
+	outline-color: red;
+	text-align: right;
+}
+
+.order-table th {
+	color: #D43F3F;
+}
+legend {
+	color: #D43F3F;
+	font-weight: bold;
+	font-size: 150%;
+}

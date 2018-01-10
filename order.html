@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SilverGems</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css"
+href="https://mahajan-pooja.github.io/Silvergems/assignment1.css" media="screen">
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Great+Vibes">
+    <style>
+      body {
+        font-family: 'Great+Vibes', cursive;
+        font-size: 100%;
+      }
+    </style>
+</head>
+<body class="bodyClass">
+	<header>
+	<section class="logoDiv">
+		<span class="spanMarg"><h1 class="logoClass">Silver Gems</h1></span>
+	</section>	
+	<nav class="navClass">
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/index.html" class="anchorTop">Home</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/contact-us.html" class="anchorTop">Contact Us</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/about-us.html" class="anchorTop">About Us</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/new.html" class="anchorTop">New</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/faq.html" class="anchorTop">FAQ</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/support.html" class="anchorTop">Support</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/products.html" class="anchorTop">Products</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/multimedia.html" class="anchorTop">Multimedia</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/order.html" class="anchorTop">Order</a></span>
+	</nav>
+</header>
+	<section class="divMain">
+	<form>
+	<fieldset>
+	<legend align="center">Customer Information</legend>
+
+	<table class="cust-form" cellpadding="5">
+	<tr>
+		<td><label>First Name : </label></td>
+		<td><input type="text" name="first-name" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>Last Name : </label></td>
+		<td><input type="text" name="last-name" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>Street Address : </label></td>
+		<td><input type="text" name="address" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>City : </label></td>
+		<td><input type="text" name="city" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>State : </label></td>
+		<td><input type="text" name="state" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>Zip : </label></td>
+		<td><input type="text" name="zip" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>Telephone No.: </label></td>
+		<td><input type="tel" name="telephone" size="50"></td>
+	</tr>
+	<tr>
+		<td><label>Email : </label></td>
+		<td><input type="email" name="email" size="50"></td></td>
+	</tr>
+	<tr>
+		<td><label>Credit card number : </label></td>
+		<td><input type="number" name="cc-no" maxlength="16" min="0" style="width:305px;"></td>
+	</tr>
+	<tr>
+		<td><label>Credit card type : </label></td>
+			<td><select style="width:305px;">
+				<option value="american-exp">American Express</option>
+				<option value="mastercard">Master Card</option>
+				<option value="visa">Visa</option>
+			</select></td>
+	</tr>
+	<tr>	
+		<td><label>Credit card expiration : </label></td>
+		<td><input type="month" name="exp-date" size="50" style="width:305px;"></td>
+	</tr>
+	<tr>
+		<td><label>Comment : </label></td>
+		<td><textarea cols="48" rows="3"></textarea></td>
+	</tr>
+</table>
+</fieldset>
+<br>
+<fieldset>
+	<legend align="center">Order Details</legend>
+	<form>
+		<table border="1" class="order-table" cellspacing="2" cellpadding="10">
+			<tr>
+				<th>Category</th>
+				<th>Description</th>
+				<th>Unit Price</th>
+				<th>Quantity</th>
+				<th>Total Price</th>
+			</tr>
+			<tr>
+				<td rowspan="2">14K Yellow Gold</td>
+				<td>14K Yellow Gold Diamond Engagement Ring Unique Diamond Ring Flower Engagement</td>
+
+				<td>$1,340.00</td>
+
+				<td>
+					<input type="number" min="0" name="quantity-one" style="width:80px;">
+				</td>
+				<td>
+					<input type="text" name="total-one" readonly style="width:80px;">
+				</td>
+			</tr>
+			<tr>
+				<td>14k yellow gold diamond celtic trinity knot wedding ring, engagement ring CT7270 
+</td>
+				<td>$1,225.00</td>
+				<td><input type="number" min="0" name="quantity-two" style="width:80px;"></td>
+				<td><input type="text" name="total-two" readonly style="width:80px;"></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td colspan="4">Subtotal $ </td>
+				<td><input type="number" name="subtotal-one" readonly style="width:80px;"></td>
+			</tr>
+
+			<tr>
+				<td rowspan="2">14K White Gold</td>
+				<td>14k white gold diamond leaf and vine wedding ring, engagement ring ADLR58 </td>
+
+				<td>$825.00</td>
+
+				<td>
+					<input type="number" min="0" name="quantity-three" style="width:80px;">
+				</td>
+				<td>
+					<input type="text" name="total-three" readonly style="width:80px;">
+				</td>
+			</tr>
+			<tr>
+				<td>14k white gold diamond leaf and vine wedding ring, engagement ring ADLR58</td>
+				<td> $1025.00</td>
+				<td><input type="number" min="0" name="quantity-four" style="width:80px;"></td>
+				<td><input type="text" name="total-four" readonly style="width:80px;"></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td colspan="4">Subtotal $ </td>
+				<td><input type="text" name="subtotal-two" readonly style="width:80px;"></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td colspan="4">Total $ </td>
+				<td><input type="text" name="total" readonly style="width:80px;"></td>
+			</tr>
+		</table>
+	<input type="submit" style="width: 100px; height: 40px; background-color: #D43F3F; color:white; font-weight: bold;">
+  <input type="reset" style="width: 100px; height: 40px; background-color: #D43F3F; color:white; font-weight: bold;">
+</fieldset>
+ 
+	</form>
+	</section>
+	<footer>
+	<section class="divBottom">
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/index.html" class="anchorBottom">Home</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/contact-us.html" class="anchorBottom">Contact Us</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/about-us.html" class="anchorBottom">About Us</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/new.html" class="anchorBottom">New</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/faq.html" class="anchorBottom">FAQ</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/support.html" class="anchorBottom">Support</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/products.html" class="anchorBottom">products</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/multimedia.html" class="anchorBottom">Multimedia</a></span>
+		<span class="spanClass"><a href="https://mahajan-pooja.github.io/Silvergems/order.html" class="anchorBottom">Order</a></span>
+	</section>	
+</footer>
+</body>
+</html>
